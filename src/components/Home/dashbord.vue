@@ -1,15 +1,19 @@
 <template>
   <v-app>
-   < navbar />
-   <h1>hello</h1>
+    <!-- Navbar -->
+    <Navbar />
+
+    <!-- Main content -->
+    <v-main>
+      <v-container>
+        <h1>hello</h1>
+      </v-container>
+    </v-main>
   </v-app>
 </template>
-<script>
-import { ref } from 'vue';
-import navbar from '../navbar/navbar.vue';
-const navColor1 = "#05204A";
-const drawer = ref(false);
 
+<script setup>
+import Navbar from '../navbar/Navbar.vue';
 </script>
 
 <style scoped>
@@ -20,5 +24,4 @@ const drawer = ref(false);
 .text-subtitle-2 {
   font-size: 1.1rem;
 }
-
 </style>
