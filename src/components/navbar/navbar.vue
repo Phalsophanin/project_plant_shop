@@ -1,54 +1,83 @@
 <template>
-  <v-navigation-draer v-model="drawer" temporary>
-    <v-list dense>
-      <v-list-item link to="/">
-        <v-list-item-title>Home</v-list-item-title>
-      </v-list-item>
-      <v-list-item link to="/about">
-        <v-list-item-title>About</v-list-item-title>
-      </v-list-item>
-    </v-list>
-  </v-navigation-draer>
-
-   <v-app-bar :color="navColor1" flat class="evevation-2 rounded pt-1">
-    <div>
-      <v-img
-        src="@/assets/logo.png"
-        alt="Logo"
-        class="mr-2 rounded"
-        contain
-        width="50"
-        height="50"
-      >
-      </v-img>
-      <div class="d-flex flex-column">
-        <span class="text-subtitile-2 font-weight-bold line-height-1">
-          PLANT
-        </span>
-        <span class="text-subtitile-2 font-weight-light line-height-1">
-          SHOP
-        </span>
+  <v-app>
+    <v-app-bar flat class="px-10" color="#6f8e8c">
+    </v-app-bar>
+    <v-app-bar flat color="white" elevation="1" height="80">
+      <v-container class="d-flex justify-space-between align-center">
+        <h3 class="font-weight-bold">ifplants</h3>
+        <div class="d-flex">
+          <v-btn variant="text">Home</v-btn>
+          <v-btn variant="text">Products</v-btn>
+          <v-btn variant="text">News</v-btn>
+          <v-btn variant="text">Services</v-btn>
+          <v-btn variant="text">Research</v-btn>
+          <v-btn variant="text">About</v-btn>
+        </div>
+      </v-container>
+    </v-app-bar>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Your partner to manage<br />
+          the purchase of plants in Spain.
+        </h1>
       </div>
-    </div>
- </v-app-bar>
+      <v-btn class="arrow left" icon size="40">
+        <v-icon size="40">mdi-chevron-left</v-icon>
+      </v-btn>
+      <v-btn class="arrow right" icon size="40">
+        <v-icon size="40">mdi-chevron-right</v-icon>
+      </v-btn>
+    </section>
+  </v-app>
 </template>
 
-<script setup>  
-import { ref } from 'vue';
-const navColor1 = ref('#A3D9A5');
-const drawer = ref(false);
-
-const links = [
-  { text: 'Home', to: '/' },
-  { text: 'About', to: '/about' },
-];
+<script setup>
 </script>
 
 <style scoped>
-.line-height-1 {
-  line-height: 1;
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url("/mnt/data/578f2ecf-22d2-4803-980e-0a0dccb7101f.png"); 
+  background-size: cover;
+  background-position: center;
 }
-.text-subtitile-2 {
-  font-size: 1.1rem;
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
 }
 </style>
