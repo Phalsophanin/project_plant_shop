@@ -1,10 +1,15 @@
 <template>
   <v-app>
+    <!-- Top Bar -->
     <v-app-bar flat class="px-10" color="#6f8e8c">
+        
     </v-app-bar>
+
+    <!-- Navigation -->
     <v-app-bar flat color="white" elevation="1" height="80">
       <v-container class="d-flex justify-space-between align-center">
-        <h3 class="font-weight-bold">ifplants</h3>
+        <h3 class="font-weight-bold">Plant</h3>
+
         <div class="d-flex">
           <v-btn variant="text">Home</v-btn>
           <v-btn variant="text">Products</v-btn>
@@ -15,17 +20,19 @@
         </div>
       </v-container>
     </v-app-bar>
+
+    <!-- Hero Section -->
     <section class="hero">
       <div class="overlay"></div>
-      <div class="hero-content">
-        <h1 class="hero-title">
-          Your partner to manage<br />
-          the purchase of plants in Spain.
-        </h1>
-      </div>
+
+   
+  
+
+      <!-- Slider Arrows -->
       <v-btn class="arrow left" icon size="40">
         <v-icon size="40">mdi-chevron-left</v-icon>
       </v-btn>
+
       <v-btn class="arrow right" icon size="40">
         <v-icon size="40">mdi-chevron-right</v-icon>
       </v-btn>
@@ -40,7 +47,7 @@
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url("/mnt/data/578f2ecf-22d2-4803-980e-0a0dccb7101f.png"); 
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/405/442/small_2x/small-trees-are-growing-in-fertile-soil-free-video.jpg"); 
   background-size: cover;
   background-position: center;
 }
