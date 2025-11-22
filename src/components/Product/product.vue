@@ -71,21 +71,12 @@ const products = [
     price: "19.99",
     image: "/your/image7.jpg"
   },
-  {
-    name: "Ionantha Guatemala Air Plants - 2 Inch",
-    price: "10.99",
-    image: "/your/image8.jpg"
+    {
+    name: "Pilea Peperomioides 'Chinese Money'",
+    price: "19.99",
+    image: "/your/image7.jpg"
   },
-  {
-    name: "Zamioculcas 'ZZ'",
-    price: "15.99",
-    image: "/your/image9.jpg"
-  },
-  {
-    name: "Philodendron Cordatum 'Heartleaf'",
-    price: "14.99",
-    image: "/your/image10.jpg"
-  }
+ 
 ];
 </script>
 

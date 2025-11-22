@@ -1,5 +1,4 @@
 <template>
-  <v-app-bar>
    <section class="hero">
       <div class="overlay"></div>
 
@@ -19,14 +18,14 @@
         <v-icon size="40">mdi-chevron-right</v-icon>
       </v-btn>
     </section>
- </v-app-bar>
+ 
 </template>
 
 <style scoped>
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/405/442/small_2x/small-trees-are-growing-in-fertile-soil-free-video.jpg"); 
+  background-image: url("https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg"); 
   background-size: cover;
   background-position: center;
 }

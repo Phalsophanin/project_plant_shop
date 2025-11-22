@@ -1,6 +1,6 @@
 <template>
-  <v-app>
-    <!-- Top Bar -->
+
+   
     <v-app-bar flat class="px-10" color="#6f8e8c">
       </v-app-bar>
     <v-app-bar flat color="white" elevation="1" height="80">
@@ -17,7 +17,7 @@
         </div>
       </v-container>
     </v-app-bar>
-    </v-app>
+   
 </template>
 
 <script setup>

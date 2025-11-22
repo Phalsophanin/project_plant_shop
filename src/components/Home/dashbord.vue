@@ -2,7 +2,7 @@
   <v-app>
     <v-main>
       <Navbar />
-
+      <Banner />
       <Product />
     </v-main>
   </v-app>
@@ -12,6 +12,7 @@
 import { ref } from "vue";
 
 import Navbar from "../navbar/navbar.vue";
+import Banner from "../navbar/banner.vue";
 import Product from "../Product/product.vue";
 
 const navColor1 = "#05204A";
