@@ -1,24 +1,21 @@
 <template>
   <v-app>
-    <navbar />
     <v-main>
-      <v-container>
-      </v-container>
-    </v-main>
+      <Navbar />
 
+      <Product />
+    </v-main>
   </v-app>
 </template>
 
 <script setup>
-
 import { ref } from "vue";
-import navbar from "../navbar/navbar.vue";
+
+import Navbar from "../navbar/navbar.vue";
+import Product from "../Product/product.vue";
 
 const navColor1 = "#05204A";
 const drawer = ref(false);
-
-import Navbar from '../navbar/Navbar.vue';
-
 </script>
 
 <style scoped>
