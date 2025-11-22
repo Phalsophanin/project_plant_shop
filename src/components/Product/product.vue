@@ -39,42 +39,42 @@ const products = [
   {
     name: "Monstera 'Split-Leaf'",
     price: "15.99",
-    image: "/mnt/data/953d2b3f-b823-4d34-a304-bb64cb5ec4be.png" // replace with real image
+    image: "https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg" 
   },
   {
     name: "Winter Plant Shipping Protection",
     price: "4.99",
-    image: "/your/image2.jpg"
+    image: "https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg"
   },
   {
     name: "Parlor Palm",
     price: "14.99",
-    image: "/your/image3.jpg"
+    image: "https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg"
   },
   {
-    name: "Monstera Adansonii 'Swiss Cheese'",
+    name: "Monstera Adansonii ",
     price: "12.99",
-    image: "/your/image4.jpg"
+    image: "https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg"
   },
   {
     name: "Pothos 'Golden'",
     price: "21.99",
-    image: "/your/image5.jpg"
+    image: "https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg"
   },
   {
     name: "Spider Plant 'Reverse'",
     price: "14.99",
-    image: "/your/image6.jpg"
+    image: "https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg"
   },
   {
-    name: "Pilea Peperomioides 'Chinese Money'",
+    name: "Pilea Peperomioides ",
     price: "19.99",
-    image: "/your/image7.jpg"
+    image: "https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg"
   },
     {
-    name: "Pilea Peperomioides 'Chinese Money'",
+    name: "Pilea Peperomioides ",
     price: "19.99",
-    image: "/your/image7.jpg"
+    image: "https://www.saferbrand.com/media/Articles/Safer-Brand/26-best-indoor-plants.jpg"
   },
  
 ];
